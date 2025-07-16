@@ -1,0 +1,18 @@
+echo "# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large data files
+data/*.csv
+data/*.xlsx
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Ignore system files
+.DS_Store  # Mac
+Thumbs.db  # Windows
+" > .gitignore 
+"data/" 
