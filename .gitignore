@@ -16,3 +16,5 @@ env/
 Thumbs.db  # Windows
 " > .gitignore 
 "data/" 
+data/MachineLearningRating_v3.txt 
+temp_backup/ 

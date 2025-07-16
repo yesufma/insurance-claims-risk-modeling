@@ -1,0 +1,44 @@
+Numerical Features:
+SumInsured
+RegistrationYear
+Cylinders
+cubiccapacity
+kilowatts
+NumberOfDoors
+
+Categorical Features:
+Province_Free State
+Province_Gauteng
+Province_KwaZulu-Natal
+Province_Limpopo
+Province_Mpumalanga
+Province_North West
+Province_Northern Cape
+Province_Western Cape
+Gender_Male
+Gender_Not specified
+VehicleType_Heavy Commercial
+VehicleType_Light Commercial
+VehicleType_Medium Commercial
+VehicleType_Passenger Vehicle
+CoverType_Asset Value Preserver
+CoverType_Baggage/Luggage
+CoverType_Basic Excess Waiver
+CoverType_Cash Takings
+CoverType_Cleaning and Removal of Accident Debris
+CoverType_Credit Protection
+CoverType_Deposit Cover
+CoverType_Emergency Charges
+CoverType_Factory Fitted Sound and Other Electronic Equipment
+CoverType_Fire and Theft
+CoverType_Income Protector
+CoverType_Keys and Alarms
+CoverType_Own Damage
+CoverType_Passenger Liability
+CoverType_Roadside Assistance
+CoverType_Signage and Vehicle Wraps
+CoverType_Standalone passenger liability
+CoverType_Third Party
+CoverType_Third Party Only
+CoverType_Trailer
+CoverType_Windscreen
