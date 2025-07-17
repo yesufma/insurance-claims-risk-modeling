@@ -16,37 +16,7 @@ The goal is to predict the **monetary value of insurance claims (`TotalClaims`)*
 - **Task 3**: Feature engineering and selection (41 features)
 - **Task 4**: Predictive modeling and SHAP interpretability
 
-🔗 **Project URL**: [github.com/yesufma/insurance-claims-risk-modeling](https://github.com/yesufma/insurance-claims-risk-modeling)
 
----
-
-## 📁 Repository Structure
-```bash
-insurance-claims-risk-modeling/
-├── .dvc/ # DVC configuration
-├── data/ # Datasets
-│ ├── insurance_claims_cleaned.csv.dvc
-│ └── MachineLearningRating_v3.txt
-├── notebooks/ # Jupyter notebooks
-│ ├── eda_task2.ipynb
-│ └── predictive_modeling_task4.ipynb
-├── reports/ # Outputs and reports
-│ ├── feature_list_task4.txt
-│ ├── eda_histograms_task2.png
-│ ├── eda_correlation_task2.png
-│ ├── actual_vs_predicted_lr_task4.png
-│ ├── actual_vs_predicted_rf_task4.png
-│ ├── actual_vs_predicted_xgb_task4.png
-│ ├── model_comparison_task4.png
-│ ├── shap_importance_task4.png
-│ ├── project_report.md
-│ └── project_report.docx
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
-
----
 
 ##  Tasks and Methodology
 
@@ -95,6 +65,37 @@ insurance-claims-risk-modeling/
 - Interpretability with SHAP:
 <img width="1086" height="698" alt="shap_importance_task4" src="https://github.com/user-attachments/assets/9005b284-535c-4c46-a59b-36564862928a" />
 
+
+---
+🔗 **Project URL**: [github.com/yesufma/insurance-claims-risk-modeling](https://github.com/yesufma/insurance-claims-risk-modeling)
+
+---
+
+## 📁 Repository Structure
+```bash
+insurance-claims-risk-modeling/
+├── .dvc/ # DVC configuration
+├── data/ # Datasets
+│ ├── insurance_claims_cleaned.csv.dvc
+│ └── MachineLearningRating_v3.txt
+├── notebooks/ # Jupyter notebooks
+│ ├── eda_task2.ipynb
+│ └── predictive_modeling_task4.ipynb
+├── reports/ # Outputs and reports
+│ ├── feature_list_task4.txt
+│ ├── eda_histograms_task2.png
+│ ├── eda_correlation_task2.png
+│ ├── actual_vs_predicted_lr_task4.png
+│ ├── actual_vs_predicted_rf_task4.png
+│ ├── actual_vs_predicted_xgb_task4.png
+│ ├── model_comparison_task4.png
+│ ├── shap_importance_task4.png
+│ ├── project_report.md
+│ └── project_report.docx
+├── .gitignore
+├── requirements.txt
+└── README.md
+```
 
 ---
 
