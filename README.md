@@ -54,12 +54,16 @@ insurance-claims-risk-modeling/
 - Loaded `insurance_claims_cleaned.csv` using pandas.
 - Filtered for `TotalClaims > 0` and dropped rows with missing values.
 - Tracked dataset with DVC: `data/insurance_claims_cleaned.csv.dvc`
+<img width="1440" height="600" alt="categorical_distributions" src="https://github.com/user-attachments/assets/41f0081e-11b5-43c0-bf57-09f99fbfddfd" />
+<img width="1440" height="720" alt="claims_temporal_trend" src="https://github.com/user-attachments/assets/57ae01ec-63ba-4db1-b701-e99ccfaed10e" />
+<img width="1440" height="600" alt="outlier_boxplots" src="https://github.com/user-attachments/assets/4b57afc2-c603-4263-ba6f-3da95a0072d0" />
+
 
 ###  Task 2: Exploratory Data Analysis (EDA)
 - Analyzed distributions of numeric (`SumInsured`, `kilowatts`) and categorical (`Province`, `CoverType`) features.
 - Generated:
-  - Histograms: `reports/eda_histograms_task2.png`
-  - Correlation matrix: `reports/eda_correlation_task2.png`
+ <img width="960" height="720" alt="correlation_matrix" src="https://github.com/user-attachments/assets/d80270f5-84af-4b4f-84e7-5761804a11e3" />
+
 - Found **positive correlation** between `SumInsured` and `TotalClaims`.
 
 ###  Task 3: Feature Engineering and Selection
